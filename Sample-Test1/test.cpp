@@ -1,6 +1,7 @@
 #include "pch.h"
+#include "../TDD_Calc/cal.cpp"
 
-TEST(TestCaseName, TestName) {
-  EXPECT_EQ(1, 1);
-  EXPECT_TRUE(true);
+TEST(TestCaseCalc, TestSum)
+{
+	EXPECT_EQ(10, getSum(4, 6));
 }
