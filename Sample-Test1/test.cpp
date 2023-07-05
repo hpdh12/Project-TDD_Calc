@@ -1,6 +1,10 @@
 #include "pch.h"
 #include "../TDD_Calc/cal.cpp"
 
+TEST(TestCaseName, ZegopTest) {
+	EXPECT_EQ(4, getZegop(2));
+}
+
 TEST(TestCaseName, MinusTest) 
 {
 	EXPECT_EQ(2, getMinus(4,2));
